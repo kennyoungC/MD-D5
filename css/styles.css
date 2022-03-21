@@ -21,6 +21,26 @@ img {
 img:hover {
   transform: scale(1.2);
 }
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5% !important;
+}
 .dark-bg {
   background-color: black !important;
+}
+.main-body {
+  min-height: calc(100vh - 300px);
+}
+.social-icons {
+  gap: 16px;
+}
+.dropdown-menu {
+  left: -100px !important;
+}
+.icon {
+  font-size: 32px;
+}
+footer {
+  height: 200px;
+  padding: 32px;
 }
