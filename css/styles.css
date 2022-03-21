@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #fff !important;
+  background-color: black !important;
+}
+.netflix-logo {
+  max-width: 96px;
+}
+.list-icon,
+.app-icon {
+  border: 1px solid #fff;
+  padding: 12px;
+}
+img {
+  transition: all 0.3s;
+}
+img:hover {
+  transform: scale(1.2);
+}
+.dark-bg {
+  background-color: black !important;
+}
