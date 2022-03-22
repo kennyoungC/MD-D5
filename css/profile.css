@@ -14,42 +14,24 @@ body {
 .dark-bg {
   background-color: black !important;
 }
-.lang-sec {
-  border-bottom: 1px solid #fff;
-}
-.edit {
-  display: inline-block;
-  border: 1px solid #fff;
-  padding: 8px 24px;
-}
-.cont {
-  border-top: 1px solid #fff;
-}
+
 .play {
   display: flex;
   align-items: center;
   gap: 12px;
 }
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 850px;
+
+  /* padding: 5% 30%; */
+}
 .play-icons {
   font-size: 48px;
 }
-.avatar-img {
-  width: 100%;
-  position: relative;
-  left: 0;
-}
-.scd {
-  margin-left: -5px;
-  margin-top: 24px;
-  gap: 32px;
-}
-.scd p {
-  display: inline-block;
-  border: 1px solid #fff;
-  padding: 12px 36px;
-}
-.all-cont {
-  position: absolute;
-  left: 50%;
-  top: 150px;
+
+.hr-profile {
+  background-color: #fff;
 }

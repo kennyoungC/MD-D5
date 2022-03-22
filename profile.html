@@ -33,18 +33,28 @@
         <img class="netflix-logo" src="./assets/netflix_logo.png" alt="" />
       </a>
     </nav>
-    <div class="all-cont container">
-      <div class="container profile">
+    <div class="profile px-sm-5 container">
+      <div class="container">
         <h1 class="display-4">Edit Profile</h1>
+        <hr class="hr-profile" />
 
         <div class="row">
-          <div class="col-2 lang-sec cont py-4">
-            <img class="avatar-img" src="./assets/avatar.png" alt="" />
+          <div class="col-12 col-lg-3 lang-sec py-4">
+            <img
+              class="avatar-img"
+              src="./assets/avatar.png"
+              alt=""
+              width="170px"
+            />
           </div>
-          <div class="col-4.5 lang-sec cont py-4">
+          <div class="col-12 col-lg-9 lang-sec cont py-4">
             <div class="lang-sec">
-              <input type="text" class="bg-dark w-100 p-2 text-white lead" />
-              <p class="mb-1 mt-5">Language:</p>
+              <input
+                type="text"
+                value="KENNETH OBI"
+                class="bg-dark w-100 p-2 text-white lead"
+              />
+              <p class="mb-1 mt-5 lead">Language:</p>
               <div class="dropdown mb-3">
                 <button
                   class="btn btn-secondary dropdown-toggle"
@@ -61,13 +71,18 @@
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
               </div>
+              <hr class="hr-profile" />
             </div>
-            <div class="lang-sec">
+            <div>
               <h4 class="mt-4">Maturity settings:</h4>
               <p class="d-inline-block p-2 bg-dark">ALL MATUREITY RATINGS:</p>
               <p>show titles of all maturity ratings for this profile</p>
-              <p class="edit">EDIT</p>
+              <button class="btn btn-outline-light text-muted w-25">
+                EDIT
+              </button>
             </div>
+            <hr class="hr-profile" />
+
             <div class="mt-3">
               <h4>Autoplay Controls</h4>
               <p class="play">
@@ -81,13 +96,23 @@
             </div>
           </div>
         </div>
-        <div class="d-flex scd">
-          <p>SAVE</p>
-          <p>SCANCEL</p>
-          <p>DELETE PROFILES</p>
+        <hr class="hr-profile" />
+        <div class="row">
+          <div class="col-md-2">
+            <button class="btn btn-light w-100 p-3">SAVE</button>
+          </div>
+          <div class="col-md-5">
+            <button class="btn btn-outline-light w-100 p-3">CANCEL</button>
+          </div>
+          <div class="col-md-5 w-100">
+            <button class="btn btn-outline-light p-3 w-100">
+              DELETE PROFILES
+            </button>
+          </div>
         </div>
       </div>
     </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
